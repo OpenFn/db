@@ -1,0 +1,355 @@
+{
+	"id": "388888b2-7809-2f79-9d04-9cc7f2b4ac79",
+	"name": "OpenFn",
+	"description": "",
+	"order": [],
+	"folders": [
+		{
+			"id": "74c3ad3d-3e55-362f-3358-2eb87130cf7a",
+			"name": "Mappings",
+			"description": "",
+			"write": true,
+			"order": [
+				"9dcf6a4e-2cee-7f83-a8a6-fe68ef15bf03",
+				"27105d6d-fd95-cdb9-4141-0887a5f6960c",
+				"a033f111-6760-ed92-1d2c-d244f93e467c"
+			],
+			"collection_name": "OpenFn",
+			"collection_owner": 0,
+			"collection_id": "388888b2-7809-2f79-9d04-9cc7f2b4ac79"
+		}
+	],
+	"timestamp": 1441098696118,
+	"owner": 0,
+	"remoteLink": "",
+	"public": false,
+	"requests": [
+		{
+			"id": "27105d6d-fd95-cdb9-4141-0887a5f6960c",
+			"headers": "Accept: application/json\nContent-Type: application/json\nPrefer: return=representation\n",
+			"url": "localhost:3000/mappings",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "POST",
+			"data": [],
+			"dataMode": "raw",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1441116956668,
+			"name": "New Mapping",
+			"description": "",
+			"collectionId": "388888b2-7809-2f79-9d04-9cc7f2b4ac79",
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 400,
+						"name": "Bad Request",
+						"detail": "The request cannot be fulfilled due to bad syntax."
+					},
+					"time": 28,
+					"headers": [
+						{
+							"name": "Access-Control-Allow-Credentials",
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true",
+							"description": "Indicates whether or not the response to the request can be exposed when the credentials flag is true. When used as part of a response to a preflight request, this indicates whether or not the actual request can be made using credentials."
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"key": "Access-Control-Allow-Origin",
+							"value": "chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop",
+							"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+						},
+						{
+							"name": "Access-Control-Expose-Headers",
+							"key": "Access-Control-Expose-Headers",
+							"value": "Content-Encoding, Content-Location, Content-Range, Content-Type, Date, Location, Server, Transfer-Encoding, Range-Unit",
+							"description": "Lets a server whitelist headers that browsers are allowed to access."
+						},
+						{
+							"name": "Content-Encoding",
+							"key": "Content-Encoding",
+							"value": "gzip",
+							"description": "The type of encoding used on the data."
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Tue, 01 Sep 2015 14:24:25 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "Server",
+							"key": "Server",
+							"value": "postgrest/0.2.11.0",
+							"description": "A name for the server"
+						},
+						{
+							"name": "Transfer-Encoding",
+							"key": "Transfer-Encoding",
+							"value": "chunked",
+							"description": "The form of encoding used to safely transfer the entity to the user. Currently defined methods are: chunked, compress, deflate, gzip, identity."
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\"hint\":null,\"details\":\"Failing row contains (1, null, 2015-09-01 16:24:25.89888).\",\"code\":\"23502\",\"message\":\"null value in column \\\"title\\\" violates not-null constraint\"}",
+					"language": "javascript",
+					"rawDataType": "text",
+					"state": {
+						"size": "normal"
+					},
+					"previewType": "html",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"isSample": true,
+					"scrollToResult": true,
+					"runTests": true,
+					"id": "a520ec11-42bb-0f4c-6d04-f3edbbd3a9c5",
+					"name": "Invalid Mapping",
+					"request": {
+						"name": "New Mapping",
+						"description": "",
+						"url": "localhost:3000/mappings",
+						"pathVariables": {},
+						"data": "{}",
+						"headers": "Accept: application/json\nContent-Type: application/json\nPrefer: return=representation\n",
+						"dataMode": "raw",
+						"method": "POST",
+						"tests": "",
+						"isFromCollection": true,
+						"version": 2
+					}
+				},
+				{
+					"status": "",
+					"responseCode": {
+						"code": 201,
+						"name": "Created",
+						"detail": "The request has been fulfilled and resulted in a new resource being created."
+					},
+					"time": 30,
+					"headers": [
+						{
+							"name": "Access-Control-Allow-Credentials",
+							"key": "Access-Control-Allow-Credentials",
+							"value": "true",
+							"description": "Indicates whether or not the response to the request can be exposed when the credentials flag is true. When used as part of a response to a preflight request, this indicates whether or not the actual request can be made using credentials."
+						},
+						{
+							"name": "Access-Control-Allow-Origin",
+							"key": "Access-Control-Allow-Origin",
+							"value": "chrome-extension://fhbjgbiflinjbdggehcddcbncdddomop",
+							"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+						},
+						{
+							"name": "Access-Control-Expose-Headers",
+							"key": "Access-Control-Expose-Headers",
+							"value": "Content-Encoding, Content-Location, Content-Range, Content-Type, Date, Location, Server, Transfer-Encoding, Range-Unit",
+							"description": "Lets a server whitelist headers that browsers are allowed to access."
+						},
+						{
+							"name": "Content-Encoding",
+							"key": "Content-Encoding",
+							"value": "gzip",
+							"description": "The type of encoding used on the data."
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Tue, 01 Sep 2015 14:25:13 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "Location",
+							"key": "Location",
+							"value": "/mappings?id=eq.2",
+							"description": "Used in redirection, or when a new resource has been created."
+						},
+						{
+							"name": "Server",
+							"key": "Server",
+							"value": "postgrest/0.2.11.0",
+							"description": "A name for the server"
+						},
+						{
+							"name": "Transfer-Encoding",
+							"key": "Transfer-Encoding",
+							"value": "chunked",
+							"description": "The form of encoding used to safely transfer the entity to the user. Currently defined methods are: chunked, compress, deflate, gzip, identity."
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\"created_at\":\"2015-09-01T16:25:13.647577\",\"id\":2,\"title\":\"Untitled\"}",
+					"language": "javascript",
+					"rawDataType": "text",
+					"state": {
+						"size": "normal"
+					},
+					"previewType": "html",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"isSample": true,
+					"scrollToResult": true,
+					"runTests": true,
+					"id": "47c349cc-9166-7221-382e-d72aff800431",
+					"name": "Valid Mapping",
+					"request": {
+						"name": "New Mapping",
+						"description": "",
+						"url": "localhost:3000/mappings",
+						"pathVariables": {},
+						"data": "{\"title\": \"Untitled\"}",
+						"headers": "Accept: application/json\nContent-Type: application/json\nPrefer: return=representation\n",
+						"dataMode": "raw",
+						"method": "POST",
+						"tests": "",
+						"isFromCollection": true,
+						"version": 2
+					}
+				}
+			],
+			"rawModeData": "{\"title\": \"My second mapping!\"}"
+		},
+		{
+			"id": "9dcf6a4e-2cee-7f83-a8a6-fe68ef15bf03",
+			"headers": "Accept: application/json\nContent-Type: application/json\n",
+			"url": "localhost:3000/mappings",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "GET",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1441116376671,
+			"name": "All Mappings",
+			"description": "",
+			"collectionId": "388888b2-7809-2f79-9d04-9cc7f2b4ac79",
+			"responses": []
+		},
+		{
+			"id": "a033f111-6760-ed92-1d2c-d244f93e467c",
+			"headers": "Accept: application/json; version=1\nPrefer: \n",
+			"url": "localhost:3000/mappings",
+			"preRequestScript": "",
+			"pathVariables": {},
+			"method": "OPTIONS",
+			"data": [],
+			"dataMode": "params",
+			"version": 2,
+			"tests": "",
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"time": 1441118759878,
+			"name": "Describe Mapping",
+			"description": "",
+			"collectionId": "388888b2-7809-2f79-9d04-9cc7f2b4ac79",
+			"responses": [
+				{
+					"status": "",
+					"responseCode": {
+						"code": 200,
+						"name": "OK",
+						"detail": "Standard response for successful HTTP requests. The actual response will depend on the request method used. In a GET request, the response will contain an entity corresponding to the requested resource. In a POST request the response will contain an entity describing or containing the result of the action."
+					},
+					"time": 56,
+					"headers": [
+						{
+							"name": "Access-Control-Allow-Origin",
+							"key": "Access-Control-Allow-Origin",
+							"value": "*",
+							"description": "Specifies a URI that may access the resource. For requests without credentials, the server may specify '*' as a wildcard, thereby allowing any origin to access the resource."
+						},
+						{
+							"name": "Content-Encoding",
+							"key": "Content-Encoding",
+							"value": "gzip",
+							"description": "The type of encoding used on the data."
+						},
+						{
+							"name": "Content-Type",
+							"key": "Content-Type",
+							"value": "application/json",
+							"description": "The mime type of this content"
+						},
+						{
+							"name": "Date",
+							"key": "Date",
+							"value": "Tue, 01 Sep 2015 14:44:12 GMT",
+							"description": "The date and time that the message was sent"
+						},
+						{
+							"name": "Server",
+							"key": "Server",
+							"value": "postgrest/0.2.11.0",
+							"description": "A name for the server"
+						},
+						{
+							"name": "Transfer-Encoding",
+							"key": "Transfer-Encoding",
+							"value": "chunked",
+							"description": "The form of encoding used to safely transfer the entity to the user. Currently defined methods are: chunked, compress, deflate, gzip, identity."
+						}
+					],
+					"cookies": [],
+					"mime": "",
+					"text": "{\"pkey\":[\"id\"],\"columns\":[{\"references\":null,\"default\":\"nextval('\\\"1\\\".mappings_id_seq'::regclass)\",\"precision\":32,\"updatable\":true,\"schema\":\"1\",\"name\":\"id\",\"type\":\"integer\",\"maxLen\":null,\"enum\":[],\"nullable\":false,\"position\":1},{\"references\":null,\"default\":null,\"precision\":null,\"updatable\":true,\"schema\":\"1\",\"name\":\"title\",\"type\":\"character varying\",\"maxLen\":255,\"enum\":[],\"nullable\":false,\"position\":2},{\"references\":null,\"default\":\"now()\",\"precision\":null,\"updatable\":true,\"schema\":\"1\",\"name\":\"created_at\",\"type\":\"timestamp without time zone\",\"maxLen\":null,\"enum\":[],\"nullable\":false,\"position\":3}]}",
+					"language": "javascript",
+					"rawDataType": "text",
+					"state": {
+						"size": "normal"
+					},
+					"previewType": "html",
+					"searchResultScrolledTo": -1,
+					"forceNoPretty": false,
+					"write": true,
+					"empty": false,
+					"failed": false,
+					"isSample": true,
+					"scrollToResult": true,
+					"runTests": true,
+					"id": "e478249f-752d-b169-115a-417bc9a074c3",
+					"name": "Example",
+					"request": {
+						"name": "Describe Mapping",
+						"description": "",
+						"url": "localhost:3000/mappings",
+						"pathVariables": {},
+						"data": [],
+						"headers": "Accept: application/json; version=1\nPrefer: \n",
+						"dataMode": "params",
+						"method": "OPTIONS",
+						"tests": "",
+						"isFromCollection": true,
+						"version": 2
+					}
+				}
+			]
+		}
+	]
+}
