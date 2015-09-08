@@ -5,3 +5,4 @@ v1schema 2015-09-01T13:14:49Z Stuart Corbishley <corbish@gmail.com> # Add v1 sch
 mappings 2015-09-01T13:38:05Z Stuart Corbishley <corbish@gmail.com> # Add initial table schema for mappings.
 postgrestAuth 2015-09-04T13:58:33Z Stuart Corbishley <corbish@gmail.com> # Add Postgrest authentication.
 postgrestRoles 2015-09-04T14:20:20Z Stuart Corbishley <corbish@gmail.com> # Add Postgrest roles.
+submissions 2015-09-08T14:22:07Z Stuart Corbishley <corbish@gmail.com> # Add Submissions table.
