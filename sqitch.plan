@@ -6,3 +6,4 @@ mappings 2015-09-01T13:38:05Z Stuart Corbishley <corbish@gmail.com> # Add initia
 postgrestAuth 2015-09-04T13:58:33Z Stuart Corbishley <corbish@gmail.com> # Add Postgrest authentication.
 postgrestRoles 2015-09-04T14:20:20Z Stuart Corbishley <corbish@gmail.com> # Add Postgrest roles.
 submissions 2015-09-08T14:22:07Z Stuart Corbishley <corbish@gmail.com> # Add Submissions table.
+transforms 2015-09-09T12:13:14Z Stuart Corbishley <corbish@gmail.com> # Add Transforms table.
