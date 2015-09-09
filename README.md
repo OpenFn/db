@@ -2,7 +2,6 @@ UADT Database
 =============
 
 Database schema change management for OpenFn UADT Prototype.
-Setting the stage for the API provided by [PostgREST](https://github.com/begriffs/postgrest)
 
 ## Requirements
 
@@ -28,17 +27,6 @@ Thereafter you can deploy.
 sqitch deploy
 ```
 
-## API Documentation
-
-*coming soon*
-
-For now there is a [Postman](https://www.getpostman.com/) Collection in `docs`.
-
 ## Further Reading
 
-It's important to note that while sqitch and PostgREST are independent, when making changes to the schemas that the target use case is PostgREST.
-
 [sqitch tutorial](https://metacpan.org/pod/sqitchtutorial)
-[sqitch boilerplate](https://github.com/begriffs/postgrest-example)
-[postgrest introduction](http://blog.jonharrington.org/postgrest-introduction/)
-
